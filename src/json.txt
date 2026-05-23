@@ -1,0 +1,27 @@
+axios.get("...")
+    .then(response => {
+        if(response.status !==200){
+            throw new Error("some error occur while fetch data)
+        }
+        setTodos(response.data);
+        setIsLoading(false);
+    })
+    .catch(error =>console.log(error))
+
+//http response codes
+information response(100-199)
+success(200-299)
+redirect message(300-399)
+client error (400-499)
+server error (500-599)
+
+//common http response codes
+404-not found
+500-internal server error
+200-ok(get,post,put)
+201-creatal(post,put)
+
+//custom hooks
+useState
+useEffect
+useRef

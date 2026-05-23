@@ -1,0 +1,49 @@
+import { useState } from 'react'
+import './App.css'
+
+function App() {
+const[todos, setTodos] =useState ([
+     {author:"mario",info:"welcome party...", body:"lorem...", id:1},
+     {author:"semzy",info:"happy birthday...", body:"lorem...", id:2},
+   ]);
+   const[newTodo, newSetTodo] = useState();
+   const HandleInputChange = (event) => {
+     event.target.value;
+   }
+    const DisplayTodos = ({ todos }) =>{
+   return(
+     <div>
+        {todos.map((t) => (
+         <p key={t.id}>{t.author}</p>
+         ))}
+     </div>
+   );
+ };
+
+ const AddTodoForm = ({newTodo,handleInputChange,handleSubmit}) =>{
+
+   return(
+     <div>
+       <form action="" onSubmit={handleSubmit}>
+         <input value={newTodo} onChange={handleInputChange}/> 
+       <button>Add ToDo</button>
+       </form>
+     </div>
+//   )
+// }
+   const HandleSubmit = (event) =>{
+     event.preventDefault();
+     const newTodoObj = {
+       author:"luigi",info:"have fun with react...", body:"lorem...", id:todos.lenght + 1,
+     };
+     setTodos = (todos.concat(newTodoObj));
+     setNewTodo = ("");
+   };
+    return (
+    <div>
+      {<AddTodoForm handleSubmit={HandleSubmit} handleInputChange={HandleInputChange} newTodo={newTodo}/>
+     <DisplayTodos todos= {todos}/>}
+    </div>
+  );
+};
+  

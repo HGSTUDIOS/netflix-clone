@@ -1,0 +1,506 @@
+[
+  {
+    "id": 1,
+    "image": "./src/assets/images/fastx.jpg",
+    "title": "Fast X",
+    "date": "november,13,2023",
+    "genre": "action",
+    "name":"top searches"
+  },
+  {
+    "id": 2,
+    "image": "./src/assets/images/ammonite.jpg",
+    "title": "Ammonite",
+    "date": "november,14,2023",
+    "genre": "romance",
+    "name":"top searches"
+  },
+  {
+    "id": 3,
+    "image": "./src/assets/images/attack on titan.jpg",
+    "title": "Attack on Titan",
+    "date": "november,15,2023",
+    "genre": "animation",
+    "name":"top searches"
+  },
+  {
+    "id": 4,
+    "image": "./src/assets/images/can't buy me love.jpg",
+    "title": "Can't Buy Me Love",
+    "date": "november,16,2023",
+    "genre": "romance",
+    "name":"top searches"
+  },
+  {
+    "id": 5,
+    "image": "./src/assets/images/deception.jpg",
+    "title": "Deception",
+    "date": "november,16,2023",
+    "genre": "drama",
+    "name":"top searches"
+  },
+  {
+    "id": 6,
+    "image": "./src/assets/images/expend4bles.jpg",
+    "title": "Expend4ables",
+    "date": "november,16,2023",
+    "genre": "drama",
+    "name":"top searches"
+  },
+  {
+    "id": 7,
+    "image": "./src/assets/images/five nights at freddys.jpg",
+    "title": "Five Nights at Freddy's",
+    "date": "Nov 16",
+    "genre": "drama",
+    "name":"arrival"
+  },
+  {
+    "id":8,
+    "image": "./src/assets/images/leo.jpg",
+    "title": "Leo",
+    "date": "Nov 16",
+    "genre": "drama",
+    "name":"arrival"
+  },
+  {
+    "id":9,
+    "image": "./src/assets/images/jujutsu kaisen.jpg",
+    "title": "Jujutsu kaisen",
+    "date": "november,16,2023",
+    "genre": "drama",
+    "name":"preview"
+  },
+  {
+    "id":10,
+    "image": "./src/assets/images/loki.jpg",
+    "title": "Loki",
+    "date": "november,16,2023",
+    "genre": "drama",
+    "name":"preview"
+  },
+  {
+    "id":11,
+    "image": "./src/assets/images/squid game the challenge.jpg",
+    "title": "Squid Game the Challenge",
+    "date": "november,16,2023",
+    "genre": "drama",
+    "name":"preview"
+  },
+  {
+    "id":12,
+    "image": "./src/assets/images/the killer.jpg",
+    "title": "The Killer",
+    "date": "november,16,2023",
+    "genre": "drama",
+    "name":"preview"
+  },
+  {
+    "id":13,
+    "image": "./src/assets/images/trolls band together.jpg",
+    "title": "Trolls Band Together",
+    "date": "november,16,2023",
+    "genre": "drama",
+    "name":"preview"
+  },
+  {
+    "id":14,
+    "image": "./src/assets/images/under the stars.jpg",
+    "title": "Under The Stars",
+    "date": "December 16",
+    "genre": "drama",
+    "name":"coming soon"
+  },
+  {
+    "id":15,
+    "image": "./src/assets/images/rommel.jpg",
+    "title": "Rommel",
+    "date": "December 16",
+    "genre": "drama",
+    "name":"coming soon"
+  },
+  {
+    "id":16,
+    "image": "./src/assets/images/the marvels.jpg",
+    "title": "The Marvels",
+    "date": "December 16",
+    "genre": "drama",
+    "name":"coming soon"
+  },
+  {
+    "id":17,
+    "image": "./src/assets/images/lucifer.jpg",
+    "title": "Lucifer",
+    "date": "november,16,2023",
+    "genre": "drama",
+    "name":"popular"
+  },
+  {
+    "id":18,
+    "image": "./src/assets/images/napoleon.jpg",
+    "title": "Napoleon",
+    "date": "november,16,2023",
+    "genre": "drama",
+    "name":"popular"
+  },
+  {
+    "id":19,
+    "image": "./src/assets/images/oppenheimer.jpg",
+    "title": "Oppenheimer",
+    "date": "november,16,2023",
+    "genre": "drama",
+    "name":"popular"
+  },
+  {
+    "id":20,
+    "image": "./src/assets/images/the beast.jpg",
+    "title": "The Beast",
+    "date": "november,16,2023",
+    "genre": "drama",
+    "name":"popular"
+  },
+  {
+    "id":21,
+    "image": "./src/assets/images/the rookie.jpg",
+    "title": "The Rookie",
+    "date": "november,16,2023",
+    "genre": "drama",
+    "name":"popular"
+  },
+  {
+    "id": 22,
+    "image": "./src/assets/images/harry potter and the philosopher's stone.jpg",
+    "title": "Harry Potter and the Philosopher's Stone",
+    "date": "november,16,2023",
+    "genre": "drama",
+    "name":"uk"
+  },
+  {
+    "id":23,
+    "image": "./src/assets/images/freelance.jpg",
+    "title": "Freelance",
+    "date": "november,16,2023",
+    "genre": "drama",
+    "name":"uk"
+  },
+  {
+    "id":24,
+    "image": "./src/assets/images/next goal wins.jpg",
+    "title": "Next Goal Wins",
+    "date": "november,16,2023",
+    "genre": "drama",
+    "name":"uk"
+  },
+  {
+    "id":25,
+    "image": "./src/assets/images/the creator.jpg",
+    "title": "The Creator",
+    "date": "november,16,2023",
+    "genre": "drama",
+    "name":"uk"
+  },
+  {
+    "id":26,
+    "image": "./src/assets/images/the equalizer .jpg",
+    "title": "The Equalizer ",
+    "date": "november,16,2023",
+    "genre": "drama",
+    "name":"netflix"
+  },
+  {
+    "id":27,
+    "image": "./src/assets/images/the holdovers.jpg",
+    "title": "The Holdovers",
+    "date": "november,16,2023",
+    "genre": "drama",
+    "name":"netflix"
+  },
+  {
+    "id": 28,
+    "image": "./src/assets/images/knuckle girl.jpg",
+    "title": "Knuckle Girl",
+    "date": "november,16,2023",
+    "genre": "drama",
+    "name":"netflix"
+  },
+  {
+    "id":29,
+    "image": "./src/assets/images/megalomaniac.jpg",
+    "title": "Megalomaniac",
+    "date": "november,16,2023",
+    "genre": "drama",
+    "name":"list"
+  },
+  {
+    "id":30,
+    "image": "./src/assets/images/priscilla.jpg",
+    "title": "Priscilla",
+    "date": "november,16,2023",
+    "genre": "drama",
+    "name":"list"
+  },
+  {
+    "id":31,
+    "image": "./src/assets/images/the sitting duck.jpg",
+    "title": "The Sitting Duck",
+    "date": "november,16,2023",
+    "genre": "drama",
+    "name":"list"
+  },
+  {
+    "id":32,
+    "image": "./src/assets/images/land of desire.jpg",
+    "title": "Land of Desire",
+    "date": "november,16,2023",
+    "genre": "drama",
+    "name":"list"
+  },
+  {
+    "id":33,
+    "image": "./src/assets/images/fear the walking dead.jpg",
+    "title": "Fear The Walking Dead",
+    "date": "november,16,2023",
+    "genre": "drama",
+    "name":"list"
+  },
+  {
+    "id":34,
+    "image": "./src/assets/images/nigeria first.jpg",
+    "title": "Before",
+    "date": "november,16,2023",
+    "genre": "drama",
+    "name":"nigeria"
+  },
+  {
+    "id":35,
+    "image": "./src/assets/images/nigeria two.jpg",
+    "title": "King of Boys",
+    "date": "november,16,2023",
+    "genre": "drama",
+    "name":"nigeria"
+  },
+  {
+    "id":36,
+    "image": "./src/assets/images/nigeria three.jpg",
+    "title": "Horized",
+    "date": "november,16,2023",
+    "genre": "drama",
+    "name":"nigeria"
+  },
+  {
+    "id":37,
+    "image": "./src/assets/images/nigeria four.jpg",
+    "title": "Gnar",
+    "date": "november,16,2023",
+    "genre": "drama",
+    "name":"nigeria"
+  },
+  {
+    "id":38,
+    "image": "./src/assets/images/african one.jpg",
+    "title": "After",
+    "date": "november,16,2023",
+    "genre": "drama",
+    "name":"african"
+  },
+  {
+    "id":39,
+    "image": "./src/assets/images/african two.jpg",
+    "title": "Merry Another",
+    "date": "november,16,2023",
+    "genre": "drama",
+    "name":"african"
+  },
+  {
+    "id":40,
+    "image": "",
+    "title": "Walking Dead",
+    "date": "november,16,2023",
+    "genre": "drama",
+    "name":""
+  },
+  {
+    "id":41,
+    "image": "./src/assets/images/african four.png",
+    "title": "Sue Right",
+    "date": "november,16,2023",
+    "genre": "drama",
+    "name":"african"
+  },
+  {
+    "id":42,
+    "image": "./src/assets/images/nollywood one.png",
+    "title": "Prison",
+    "date": "november,16,2023",
+    "genre": "drama",
+    "name":"nollywood"
+  },
+  {
+    "id":43,
+    "image": "./src/assets/images/nollywood two.jpg",
+    "title": "Sui",
+    "date": "november,16,2023",
+    "genre": "drama",
+    "name":"nollywood"
+  },
+  {
+    "id":44,
+    "image": "./src/assets/images/nollywood three.jpg",
+    "title": "LandLeaf",
+    "date": "november,16,2023",
+    "genre": "drama",
+    "name":"nollywood"
+  },
+  {
+    "id":45,
+    "image": "./src/assets/images/nollywood four.png",
+    "title": "Alabi",
+    "date": "november,16,2023",
+    "genre": "drama",
+    "name":"nollywood"
+  },
+  {
+    "id":46,
+    "image": "./src/assets/images/venice.jpg",
+    "title": "A Haunting in Vanice",
+    "date": "november,16,2023",
+    "genre": "drama",
+    "name":"preview"
+  },
+  {
+    "id":47,
+    "image": "./src/assets/images/family.jpg",
+    "title": "A Nearly Normal Family",
+    "date": "november,16,2023",
+    "genre": "drama",
+    "name":"preview"
+  },
+  {
+    "id":48,
+    "image": "./src/assets/images/high.jpg",
+    "title": "All Time High",
+    "date": "november,16,2023",
+    "genre": "drama",
+    "name":"new"
+  },
+  {
+    "id":50,
+    "image": "./src/assets/images/berserk.jpg",
+    "title": "Berserk of Gluttony",
+    "date": "november,16,2023",
+    "genre": "drama",
+    "name":"new"
+  },
+  {
+    "id":51,
+    "image": "./src/assets/images/black.jpg",
+    "title": "Black Adam",
+    "date": "november,16,2023",
+    "genre": "drama",
+    "name":"popular"
+  },
+  {
+    "id":52,
+    "image": "./src/assets/images/blacklist.jpg",
+    "title": "Blacklist",
+    "date": "november,16,2023",
+    "genre": "drama",
+    "name":"new"
+  },
+  {
+    "id":53,
+    "image": "./src/assets/images/blood.jpg",
+    "title": "Blood Punch",
+    "date": "november,16,2023",
+    "genre": "drama",
+    "name":"popular"
+  },
+  {
+    "id":55,
+    "image": "./src/assets/images/doctor.jpg",
+    "title": "Doctor Who",
+    "date": "november,16,2023",
+    "genre": "drama",
+    "name":"popular"
+  },
+  {
+    "id":56,
+    "image": "./src/assets/images/elana.jpg",
+    "title": "Elena Knows",
+    "date": "november,16,2023",
+    "genre": "drama",
+    "name":"list"
+  },
+  {
+    "id":57,
+    "image": "./src/assets/images/exmas.jpg",
+    "title": "Exmas",
+    "date": "november,16,2023",
+    "genre": "drama",
+    "name":"list"
+  },
+  {
+    "id":59,
+    "image": "./src/assets/images/john.jpg",
+    "title": "John Wick:Chapter 4",
+    "date": "november,16,2023",
+    "genre": "drama",
+    "name":"netflix"
+  },
+  {
+    "id":60,
+    "image": "./src/assets/images/see.jpg",
+    "title": "Nothing to See Here",
+    "date": "november,16,2023",
+    "genre": "drama",
+    "name":"netflix"
+  },
+  {
+    "id":62,
+    "image": "./src/assets/images/tattoo.jpg",
+    "title": "The Girl With the Dragon Tattoo",
+    "date": "november,16,2023",
+    "genre": "drama",
+    "name":"netflix"
+  },
+  {
+    "id":63,
+    "image": "./src/assets/images/locksmith.jpg",
+    "title": "The Locksmith",
+    "date": "november,16,2023",
+    "genre": "drama",
+    "name":"uk"
+  },
+  {
+    "id":64,
+    "image": "./src/assets/images/marsh.jpg",
+    "title": "The Marsh King's Daughter",
+    "date": "november,16,2023",
+    "genre": "drama",
+    "name":"uk"
+  },
+  {
+    "id":65,
+    "image": "./src/assets/images/monkey.jpg",
+    "title": "The Monkey King:Reborn",
+    "date": "november,16,2023",
+    "genre": "drama",
+    "name":"new"
+  },
+  {
+    "id":66,
+    "image": "./src/assets/images/mario.jpg",
+    "title": "The Super Mariobros Movie",
+    "date": "november,16,2023",
+    "genre": "drama",
+    "name":"new"
+  },
+  {
+    "id":67,
+    "image": "./src/assets/images/rabbit.jpg",
+    "title": "The Velveteen Rabbit",
+    "date": "november,16,2023",
+    "genre": "drama",
+    "name":"new"
+  }
+]

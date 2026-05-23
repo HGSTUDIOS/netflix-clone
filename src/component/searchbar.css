@@ -1,0 +1,12 @@
+.body {
+  height: 20vh;
+  padding-top: 30px;
+}
+.div {
+  display: flex;
+  padding-left: 10px;
+  font-size: x-large;
+  width: 100%;
+  position:relative;
+  background: #2e2e2e;
+}
