@@ -10,7 +10,7 @@ const MyListBar = () => {
   const navigate = useNavigate();
 
   const handleHome = () => {
-    navigate("/Home");
+    navigate("/home");
   };
   const handleSearch = () => {
     navigate("/search");
