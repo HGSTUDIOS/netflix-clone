@@ -7,10 +7,10 @@ const LoginSignup = () =>{
   const navigate =useNavigate()
 
   const handleSignIn = () =>{
-    navigate("/SignIn")
+    navigate("/signin")
   }
   const handleSignUp = () =>{
-    navigate("/SignUp")
+    navigate("/signup")
   }
   return(
     <div>
