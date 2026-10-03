@@ -1,8 +1,3 @@
-import Home from "../pages/home";
-import Search from "../pages/search";
-import ComingSoon from "../pages/comingSoon";
-import Downloads from "../pages/downloads";
-import More from "../pages/more";
 import { useNavigate } from "react-router-dom";
 import home_icon from "../assets/svg/homeSimple.svg";
 import search_icon from "../assets/svg/Search.svg";
