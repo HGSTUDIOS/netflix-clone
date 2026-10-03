@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import dots from "../assets/svg/threeDots.svg";
 import whatsapp from "../assets/svg/whatsapp.svg";
 import facebook from "../assets/svg/facebook.svg";
