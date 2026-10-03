@@ -10,13 +10,13 @@ const HomeTop = () => {
   const navigate=useNavigate()
 
   const handleTvShows= () =>{
-    navigate("/Tv")
+    navigate("/tv")
   }
   const handleMovies= () =>{
-    navigate("/Movies")
+    navigate("/movies")
   }
   const handleMyList= () =>{
-    navigate("/MyList")
+    navigate("/mylist")
   }
   return (
     <div className="top">
