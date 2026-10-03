@@ -1,124 +1,41 @@
-import { useState,useEffect } from "react";
-import axios from "axios";
+import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
+const SignUp = () => {
+  const [name, setName] = useState("");
+  const [password, setPassword] = useState("");
+  const [email, setEmail] = useState("");
+  const navigate = useNavigate();
 
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    const users = JSON.parse(localStorage.getItem("netflixUsers") || "[]");
+    const normalizedEmail = email.trim().toLowerCase();
 
-
-
-
-const SignUp = () =>{
-    const [todos, setTodos] = useState([]);
-    const [name, setName] = useState("");
-    const [password, setPassword] = useState("");
-    const [email, setEmail] = useState("");
-    const navigate =useNavigate()
-
-    const handleHome= () =>{
-      navigate("/Home")
+    if (!normalizedEmail || !password || !name.trim()) return;
+    if (users.some((user) => user.email === normalizedEmail)) {
+      window.alert("An account with this email already exists.");
+      return;
     }
-  
-    useEffect(() => {
-      axios
-        .get("http://localhost:3002/user")
-        .then(
-          (response) => {
-            setTodos(response.data)
-          },
-        )
-  }, []);
-  
-  
-  
-    const handleInputChange = (event) => {
-      setPassword(event.target.value);
-    };
-  
-    const handleInputChanges = (event) => {
-      setEmail(event.target.value);
-    };
-  
-    const handleInputChangess = (event) => {
-      setName(event.target.value);
-    };
-  
-    const handleSubmit = (event) => {
-      event.preventDefault();
-      const NewTodoObj = {
-        name: name,
-        email: email,
-        password: password,
-        id: todos.length + 1,
-        isComplete: false,
-      };
-      axios
-        .post(
-          "http://localhost:3002/user",
-          NewTodoObj,
-        )
-        .then((response) => {
-          setTodos(todos.concat(response.data));
-          setPassword("");
-          setEmail("");
-          setName("");
-        });
-    };
-  
-  
-  
 
-    return(
-        <div>
-            <AddTodoForm
-        handleSubmit={handleSubmit}
-        password={password}
-        email={email}
-        name={name}
-        handleInputChange={handleInputChange}
-        handleInputChanges={handleInputChanges}
-        handleInputChangess={handleInputChangess}
-        handleHome={handleHome}
-      />
-        </div>
-    )
-}
-
-const AddTodoForm = ({
-    handleSubmit,
-    password,
-    name,
-    email,
-    handleInputChange,
-    handleInputChanges,
-    handleInputChangess,
-    handleHome,
-  }) => {
-    return (
-      <div>
-        <form onSubmit={handleSubmit}>
-          <h4>Name</h4>
-          <div id="inputs">
-            <input type="text" value={name} onChange={handleInputChangess} />
-          </div>
-          <h4>Password</h4>
-          <div id="inputs">
-            <input
-              className="w-90"
-              type="password"
-              value={password}
-              onChange={handleInputChange}
-            />
-          </div>
-          <h4>E-mail</h4>
-          <div id="inputs">
-            <input type="email" value={email} onChange={handleInputChanges} />
-          </div>
-          <button  className="btn btn-success" type="submit">
-            Submit Form
-          </button>
-        </form>
-      </div>
-    );
+    users.push({ name: name.trim(), email: normalizedEmail, password });
+    localStorage.setItem("netflixUsers", JSON.stringify(users));
+    window.alert("Account created successfully.");
+    navigate("/signin");
   };
 
-export default SignUp
+  return (
+    <div style={{minHeight:"100vh",background:"#000",color:"#fff",display:"grid",placeItems:"center",padding:"24px"}}>
+      <form onSubmit={handleSubmit} style={{width:"100%",maxWidth:"360px",display:"grid",gap:"12px"}}>
+        <h2>Create Account</h2>
+        <input value={name} onChange={(e)=>setName(e.target.value)} placeholder="Name" required />
+        <input type="email" value={email} onChange={(e)=>setEmail(e.target.value)} placeholder="Email" required />
+        <input type="password" value={password} onChange={(e)=>setPassword(e.target.value)} placeholder="Password" required />
+        <button className="btn btn-success" type="submit">Create Account</button>
+        <button className="btn btn-secondary" type="button" onClick={()=>navigate("/home")}>Back to Home</button>
+      </form>
+    </div>
+  );
+};
+
+export default SignUp;
