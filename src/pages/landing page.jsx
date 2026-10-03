@@ -6,7 +6,7 @@ const LandingPage = () => {
 
   const handleClick = () => {
     setTimeout(()=>{
-      navigation("/Home");
+      navigation("/home");
     },5000)
   };
 
