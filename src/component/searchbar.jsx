@@ -1,4 +1,3 @@
-import React from "react";
 import { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import search from "../assets/svg/search_outlined.svg";
