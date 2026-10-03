@@ -1,85 +1,28 @@
-// import MyListTop from "../component/myListTop";
-// import HomeBar from "../component/homeBar";
-// import List from "../component/homeBody/list";
 import data from "../../movies.json";
 import netflixIcon from "../assets/svg/logos_netflix-icon.svg";
 import MyListBar from "../component/myListBar";
 
+const Lists = ({ image, title }) => (
+  <div>
+    <img style={{width:"120px",height:"180px",objectFit:"cover",borderRadius:"4px"}} src={image} alt={title} />
+  </div>
+);
 
-const Lists = ({ title, image, date, genre }) => {
-  return (
-    <div>
-      <div>
-        <div style={{}}>
-          <img
-            style={{width: "120px"}}
-            src={image}
-            alt=""
-          />
-        </div>
-      </div>
+const DisplayList = ({ movies }) => (
+  <div style={{display:"grid",gridTemplateColumns:"repeat(3,1fr)",gap:"10px",alignItems:"center",margin:"20px 10px 80px"}}>
+    {movies.map((movie) => <Lists key={movie.id} title={movie.title} image={movie.image} />)}
+  </div>
+);
+
+const MyList = () => (
+  <div style={{overflowX:"hidden",minHeight:"100vh",background:"#000"}}>
+    <div style={{display:"flex",alignItems:"center",gap:"20px",fontSize:"20px",color:"#fff",padding:"12px 16px"}}>
+      <img src={netflixIcon} alt="Netflix" />
+      <p style={{margin:0}}>My List</p>
     </div>
-  );
-};
-
-const DisplayList = ({ data }) => {
-  return (
-    <div
-      style={{
-        display:"grid",
-        gridTemplateColumns:"repeat(3,33.3%)",
-        gap:"10px", 
-        alignItems: "center",
-        marginLeft: "10px",
-        marginRight: "20px",
-        marginTop: "20px",
-      }}
-    >
-      {data.map((movies) => (
-        <Lists
-          key={movies.id}
-          title={movies.title}
-          image={movies.image}
-          date={movies.date}
-          genre={movies.genre}
-        />
-      ))}
-    </div>
-  );
-};
-
-const handleMyList= () =>{
-  navigate("/MyList")
-}
-
-const MyList = () => {
- 
-  return (
-    <div style={{overflowX:"hidden"}}>
- <div
-        style={{
-          display: "flex flex-col md:flex-row",
-          alignItems: "center",
-          gap: "20px",
-          fontSize: "20px",
-          color: "#fff",
-        }}
-      >
-        <div style={{}}>
-          <img src={netflixIcon} alt="" />
-        </div>
-        <div style={{}}>
-        <button style={{background:"none",color:"#fff",border:"none"}} onClick={handleMyList}><p>My List</p></button>
-        </div>
-      </div>
-      <MyListBar/>
-        <div>
-          <DisplayList
-            data={data.filter((data) => data.name === "list")}
-          />
-        </div>
-    </div>
-  );
-};
+    <MyListBar />
+    <DisplayList movies={data.filter((movie) => movie.name === "list" && movie.image)} />
+  </div>
+);
 
 export default MyList;
