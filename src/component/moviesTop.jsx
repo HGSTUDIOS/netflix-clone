@@ -4,7 +4,6 @@ import plusIcon from "../assets/svg/plusOutlinedSmall.svg";
 import infoIcon from "../assets/svg/info.svg";
 import playIcon from "../assets/svg/play.svg";
 import "./moviesTop.css";
-import { useNavigate } from "react-router-dom";
 
 const MoviesTop = () => {
  
